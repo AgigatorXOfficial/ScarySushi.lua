@@ -1,5 +1,5 @@
 -- This script made by AgigatorXOfficial --
--- This script updating --
+-- This script updated --
 if game.PlaceId == 16454399300 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -86,6 +86,10 @@ end)
 
 Section:NewButton("Goto Elevator", "Teleports to Elevator", function()
     game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(-281.114105, 4.62178946, 66.7724991, 0.0177888703, -1.05430438e-07, 0.99984175, 3.96934858e-08, 1, 1.04740906e-07, -0.99984175, 3.78239804e-08, 0.0177888703)
+end)
+
+Section:NewButton("Goto Trash", "Teleports to Trash", function()
+    game.Players.LocalPlayer.character.HumanoidRootPart.CFrame = CFrame.new(-60.4677544, 4.49802494, 23.9571915, -0.0235628989, -2.414642e-08, 0.999722362, 7.51158513e-09, 1, 2.43301699e-08, -0.999722362, 8.08278955e-09, -0.0235628989)
 end)
 
 local Tab = Window:NewTab("LocalPlayer")
