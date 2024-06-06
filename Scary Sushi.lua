@@ -1,4 +1,5 @@
 -- This script made by AgigatorXOfficial --
+-- This script updating --
 if game.PlaceId == 16454399300 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -42,7 +43,9 @@ if game.PlaceId == 16454399300 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
     end)
 
-
+    Section:NewButton("Debuggers", "Executes Debuggers", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt", true))()
+    end)
 
 elseif game.PlaceId == 16454414227 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
@@ -109,5 +112,8 @@ Section:NewButton("Infinite Yield", "Executes Infinite Yield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
 end)
 
+Section:NewButton("Debuggers", "Executes Debuggers", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt", true))()
+end)
 
 end
