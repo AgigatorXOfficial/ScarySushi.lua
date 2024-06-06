@@ -7,6 +7,7 @@ if game.PlaceId == 16454399300 then
     
     local Tab = Window:NewTab("Updates")
     local Section = Tab:NewSection("Added Goto Lobby Teleporter")
+    local Section = Tab:NewSection("Added Debuggers")    
 
     local Tab = Window:NewTab("Supporting Games")
     local Section = Tab:NewSection("Scary Sushi")
@@ -54,6 +55,7 @@ local Window = Library.CreateLib("Agigator X Hub | Scary Sushi", "Sentinel")
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("Added Goto Elevator")
 local Section = Tab:NewSection("Added LocalPlayer Tab")
+local Section = Tab:NewSection("Added Debuggers")   
 
 local Tab = Window:NewTab("Supporting Games")
 local Section = Tab:NewSection("Scary Sushi")
