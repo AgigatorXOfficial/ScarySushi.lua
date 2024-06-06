@@ -72,7 +72,7 @@ Section:NewButton("Goto Rice, Nori", "Teleports Rice, Nori", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-179.089661, 8.4674511, 67.6780167, -0.997485399, -4.792129e-08, -0.070872128, -4.78807713e-08, 1, -2.27057373e-09, 0.070872128, 1.12854803e-09, -0.997485399)
 end)
 
-Section:NewButton("Goto Fishs [Pending Fixes]", "Teleports to Fishs", function()
+Section:NewButton("Goto Fishs", "Teleports to Fishs", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-179.745987, 7.01086378, 233.827408, -0.999960303, 2.3884632e-09, 0.00891336612, 2.67069566e-09, 1, 3.16520392e-08, -0.00891336612, 3.16745883e-08, -0.999960303)
 end)
 
