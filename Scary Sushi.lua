@@ -1,6 +1,6 @@
 --[[   
 This script made by AgigatorXOfficial
-This script secufily updated
+This script secufily updating
 Enjoy to use this script
 ]]--
 
