@@ -82,6 +82,14 @@ local Section = Tab:NewSection("Scary Sushi")
 local Tab = Window:NewTab("Get Items")
 local Section = Tab:NewSection("Get Items")
 
+Section:NewButton("Goto Place Of Delivery", "N/A", function()
+    local pos = p1.CFrame
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7.36358356, 4.49802399, 68.0212555, -0.00730236014, -8.37613428e-08, -0.999973357, -4.92966521e-08, 1, -8.34035845e-08, 0.999973357, 4.86862959e-08, -0.00730236014)
+    wait(3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+
+
     Section:NewButton("Get Rice", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-177.237671, 8.46744823, 82.736702, 0.0208685379, -1.82631705e-08, -0.999782205, 4.16017407e-08, 1, -1.73987917e-08, 0.999782205, -4.1229594e-08, 0.0208685379)
@@ -220,4 +228,3 @@ end)
 
 
 end
-
