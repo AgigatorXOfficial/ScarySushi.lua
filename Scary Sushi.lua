@@ -1,13 +1,18 @@
--- This script made by AgigatorXOfficial --
--- This script updated --
+--[[   
+This script made by AgigatorXOfficial
+This script secufily updated
+Enjoy to use this script
+]]--
+
 if game.PlaceId == 16454399300 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Agigator X Hub | Scary Sushi Lobby [Updating] ", "Sentinel")
+    local Window = Library.CreateLib("Agigator X Hub | Scary Sushi Lobby ", "Sentinel")
     
     local Tab = Window:NewTab("Updates")
     local Section = Tab:NewSection("Added Goto Lobby Teleporter")
-    local Section = Tab:NewSection("Added Debuggers")    
+    local Section = Tab:NewSection("Added Debuggers") 
+    local Section = Tab:NewSection("Added Goto Place Of Delivery")   
 
     local Tab = Window:NewTab("Supporting Games")
     local Section = Tab:NewSection("Scary Sushi")
@@ -50,12 +55,13 @@ if game.PlaceId == 16454399300 then
 
 elseif game.PlaceId == 16454414227 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Agigator X Hub | Scary Sushi [Updating]", "Sentinel")
+local Window = Library.CreateLib("Agigator X Hub | Scary Sushi", "Sentinel")
 
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("Added Goto Elevator")
 local Section = Tab:NewSection("Added LocalPlayer Tab")
 local Section = Tab:NewSection("Added Debuggers")   
+local Section = Tab:NewSection("Added Goto Place Of Delivery")  
 
 local Tab = Window:NewTab("Supporting Games")
 local Section = Tab:NewSection("Scary Sushi")
@@ -66,6 +72,10 @@ local Section = Tab:NewSection("Teleports")
 
 Section:NewButton("Goto Base", "Teleports Base", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.7083092, 4.49802446, 40.8788681, 0.0476622097, 6.87124313e-09, 0.998863518, -3.19499662e-08, 1, -5.3545226e-09, -0.998863518, -3.16584448e-08, 0.0476622097)
+end)
+
+Section:NewButton("Goto Place Of Delivery", "Teleports Base", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7.36358356, 4.49802399, 68.0212555, -0.00730236014, -8.37613428e-08, -0.999973357, -4.92966521e-08, 1, -8.34035845e-08, 0.999973357, 4.86862959e-08, -0.00730236014)
 end)
 
 Section:NewButton("Goto Rice, Nori", "Teleports Rice, Nori", function()
@@ -122,4 +132,6 @@ Section:NewButton("Debuggers", "Executes Debuggers", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt", true))()
 end)
 
+
 end
+
