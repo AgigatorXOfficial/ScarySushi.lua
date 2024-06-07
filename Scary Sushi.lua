@@ -85,7 +85,7 @@ local Section = Tab:NewSection("Get Items")
     Section:NewButton("Get Rice", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-177.237671, 8.46744823, 82.736702, 0.0208685379, -1.82631705e-08, -0.999782205, 4.16017407e-08, 1, -1.73987917e-08, 0.999782205, -4.1229594e-08, 0.0208685379)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
@@ -99,56 +99,56 @@ local Section = Tab:NewSection("Get Items")
     Section:NewButton("Get Tuna", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-156.551559, 4.42658567, 269.931152, -0.998720646, -1.64765879e-09, 0.0505677685, -1.74469139e-09, 1, -1.87472282e-09, -0.0505677685, -1.9605495e-09, -0.998720646)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Get Flounder", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-202.446732, 4.42658567, 269.883209, -0.999974966, 1.15553016e-08, -0.00707197748, 1.15168914e-08, 1, 5.47196111e-09, 0.00707197748, 5.39037703e-09, -0.999974966)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Get Eel", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-221.157669, 4.42658567, 233.438782, 0.0156387109, -4.95967889e-09, 0.999877691, 2.5337028e-09, 1, 4.92065677e-09, -0.999877691, 2.45644016e-09, 0.0156387109)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Get Salmon", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-138.72319, 4.42658567, 234.179153, -0.0279455241, 2.05573016e-08, -0.99960947, 1.89159266e-08, 1, 2.00365111e-08, 0.99960947, -1.8348608e-08, -0.0279455241)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Room 1", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.967026, 6.16323423, -88.0906525, -0.999790967, 3.2500278e-08, -0.0204452835, 3.14741939e-08, 1, 5.05085502e-08, 0.0204452835, 4.98544921e-08, -0.999790967)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Room 2", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-243.186905, 6.14002943, -134.095291, 0.00755513459, 2.19739138e-09, 0.999971449, 3.54132568e-09, 1, -2.22421015e-09, -0.999971449, 3.55802876e-09, 0.00755513459)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Room 3", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-177.965851, 6.14002943, -176.94278, 0.998919249, 1.44282701e-08, 0.0464793146, -1.46234926e-08, 1, 3.86016641e-09, -0.0464793146, -4.53568427e-09, 0.998919249)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
     Section:NewButton("Room 4", "N/A", function()
         local pos = p1.CFrame
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.92572, 4.35502815, -131.503616, -0.0143743232, 2.00866364e-08, -0.999896705, -5.77900394e-09, 1, 2.01717896e-08, 0.999896705, 6.0683627e-09, -0.0143743232)
-        wait(2)
+        wait(3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
     end)
 
