@@ -3,7 +3,7 @@
 if game.PlaceId == 16454399300 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Agigator X Hub | Scary Sushi Lobby ", "Sentinel")
+    local Window = Library.CreateLib("Agigator X Hub | Scary Sushi Lobby [Updating] ", "Sentinel")
     
     local Tab = Window:NewTab("Updates")
     local Section = Tab:NewSection("Added Goto Lobby Teleporter")
@@ -50,7 +50,7 @@ if game.PlaceId == 16454399300 then
 
 elseif game.PlaceId == 16454414227 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Agigator X Hub | Scary Sushi", "Sentinel")
+local Window = Library.CreateLib("Agigator X Hub | Scary Sushi [Updating]", "Sentinel")
 
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("Added Goto Elevator")
